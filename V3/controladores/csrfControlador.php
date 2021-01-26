@@ -21,7 +21,7 @@
 		static public function val_token($_token){	
 			//echo "<br>compare: ".$_token." == ".$_SESSION["token"];
 			if (isset($_SESSION['token']) && $_token == $_SESSION["token"]) {
-					unset ($_SESSION["token"]);
+					//unset ($_SESSION["token"]);
 				return true;
 			}else{
 				return false;
